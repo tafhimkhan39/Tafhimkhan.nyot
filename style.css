@@ -1,3 +1,33 @@
 body {
     background-color: turquoise;
 }
+
+nav{
+    text-transform: uppercase;
+    font-family: PT Sans Narrow;
+}
+.nav-link{
+    font-weight: bold;    
+}
+/*when you hover the tabs change to italics and background */
+.nav-link:hover{
+    font-style: italic;
+    background-color: blue !important;
+}
+header{
+    height: 600px;
+    width: 100%;
+    background-image: url("water.jpg");
+    background-size: cover;
+    
+    /*align text*/
+    text-align: center;
+    
+}
+header p{
+    font-style: italic;
+    color:white;
+}
+header h1{
+    color:white;
+}
