@@ -31,3 +31,25 @@ header p{
 header h1{
     color:white;
 }
+
+.services {
+    text-align: center;
+}
+
+.services i {
+    font-size: 30px;
+    padding: 25px 20px;
+    
+    color: #fff;
+    background-color: blue;
+    
+    width: 80px;
+    height: 80px;
+    
+    border-radius: 50%;
+}    
+
+.services span {
+    width: 200px;
+    display: inline-block;
+}
